@@ -19,7 +19,7 @@ header {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -39,12 +39,12 @@ header {
     color: aliceblue;
     margin-left: 50px;
     align-items: center;
-    
+
 }
 
 .wrap .split {
     margin-top: -20px;
-    
+
 }
 
 
@@ -152,7 +152,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 25px;
-    
+
 
 }
 
@@ -163,7 +163,7 @@ h3 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+
 
 }
 
@@ -336,7 +336,161 @@ h2 {
     color: #eb9b34;
 }
 
-.div6 .comment a{
+.div6 .comment a {
     margin-left: 15px;
     margin-top: 25px;
+}
+
+
+.selector {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+    
+}
+
+
+
+.item_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
+.gret {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.trec {
+    width: 350px;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #c5c3c3;
+    background-color: rgba(212, 206, 206, 0);
+    outline: 0;
+    font-size: 25px;
+}
+
+.but {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+    font-size: 40px;
+    background-color: #4e78ec;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.but1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*
+
+
+/*/
+
+.events {
+    display: grid;
+    grid-area: 2 / 1 / 4 / 4;
+    justify-content: center;
+    margin-left: 200px;
+    position: relative;
+    height: 300px;
+    
+
+}
+
+.workshop {
+    border: 5px solid black;
+    margin-top: -400px;
+
+}
+
+
+
+.novosty {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.div_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    vertical-align: middle;
+    align-items: start;
+    
+}
+
+p {
+    font-size: 30px;
+    padding: 10px;    
+}
+
+.happy {
+    display: grid;
+    grid-area: 4 / 1 / 6 / 4;
+    position: relative;
+    justify-content: center;
+    margin-top: -350px;
+    margin-left: 200px;
+    height: 700px;
+    
+}
+
+.reper {
+    border: 5px solid black;
+}
+
+.halloween {
+    display: grid;
+    grid-area: 6 / 1 / 8 / 4;
+    position: relative;
+    justify-content: center;
+    margin-top: -300px;
+    margin-left: 200px;
+    height: 700px;
+}
+
+.party {
+    border: 5px solid black;
+}
+
+.detal a {
+    font-size: 40px;
+    float: right;
+    margin: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(47, 47, 226);
+
 }
